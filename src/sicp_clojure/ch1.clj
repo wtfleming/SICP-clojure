@@ -1,4 +1,4 @@
-(ns sicp.ch1)
+(ns sicp-clojure.ch1)
 
 ;;; Exercise 1.2
 (/
