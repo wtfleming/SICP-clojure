@@ -2,5 +2,6 @@
   (:use [sicp-clojure.ch1])
   (:use [clojure.test]))
 
-;(deftest replace-me ;; FIXME: write
-;  (is false "No tests have been written."))
+(deftest sum-of-larger-squares-test
+  (is (= (sum-of-larger-squares 1 2 3) 13)))
+
